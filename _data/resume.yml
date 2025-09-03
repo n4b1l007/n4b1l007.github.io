@@ -1,0 +1,137 @@
+# Structured resume data for MD. Jafrul Sadek
+# Fill these placeholders with real content extracted from the PDF resume.
+
+summary: >-
+  Microsoft Certified Professional and Certified ScrumMaster (CSM) with 8+ years of
+  end-to-end experience designing and delivering enterprise web applications across
+  banking, HR, education, inventory, POS, CRM, and industrial plant management domains.
+  Strong background in ASP.NET MVC/Core, C#, Web API, microservices, messaging (RabbitMQ),
+  modern front-end (React, Vue, Angular), and relational + NoSQL databases. Adept at
+  architecting scalable solutions, enabling Agile delivery, and improving developer
+  productivity through clean patterns (DI, Repository, TDD readiness).
+
+contact:
+  email: jafrul_sadek@outlook.com
+  location: Dhaka, Bangladesh
+  phone: "+8801711076870" # second: +8801552407651
+  website: https://www.its-nabil.com
+  github: https://github.com/n4b1l007
+  # linkedin: https://www.linkedin.com/in/your-profile
+
+skills:
+  - category: Programming Languages / Platforms
+    items: [C#, ASP.NET MVC, .NET Core, Java, JavaScript]
+  - category: Web & Front-End
+    items: [HTML5, CSS, Bootstrap, jQuery, Angular 7+, Angular 8, Vue.js, React]
+  - category: Backend & Architecture
+    items: [Web API, Microservices, RabbitMQ, TDD, DI, Repository Pattern]
+  - category: Data & Storage
+    items: [MSSQL, Oracle 11g, MySQL, MongoDB, Elasticsearch, Cassandra, Entity Framework 6, Dapper]
+  - category: Tools & Reporting
+    items: [Visual Studio, VS Code, Crystal Reports, JS Report, Telerik Reporting, Kendo UI]
+  - category: Practices
+    items: [Agile Scrum, Clean Architecture, SOLID, CI/CD]
+
+experience:
+  - role: Senior Software Engineer
+    company: BJIT Limited
+    location: Dhaka, Bangladesh
+    start: 2022-02
+    end: Present
+    achievements:
+      - Developing plant management system integrating Autodesk Forge with ASP.NET and React.
+      - Collaborating with cross-border engineering team to deliver scalable modules.
+      - Optimizing MSSQL queries and service endpoints for performance and maintainability.
+  - role: Senior Software Engineer
+    company: LEADS Corporation Limited
+    location: Dhaka, Bangladesh
+    start: 2020-04
+    end: 2022-02
+    achievements:
+      - Built next-generation microservices-based banking solution using .NET Core Web API, Vue.js, Oracle 11g.
+      - Analyzed client business strategy and translated into modular system architecture.
+      - Designed data architecture enabling targeted customer analytics and reporting.
+      - Delivered ASP.NET WebForms enhancements for legacy banking workflows.
+  - role: Associate Senior Software Engineer
+    company: CSL Software Resources Ltd.
+    location: Dhaka, Bangladesh
+    start: 2019-04
+    end: 2020-04
+    achievements:
+      - Designed multiple microservices with C#, Web API, RabbitMQ for decoupled processing.
+      - Implemented ASP.NET Core applications with DI and Repository patterns enabling TDD readiness.
+      - Contributed across database, frontend, and backend layers (SQL Server + Web UI).
+  - role: Senior Software Engineer
+    company: Linkvision Software Solution Ltd.
+    location: Dhaka, Bangladesh
+    start: 2017-08
+    end: 2019-04
+    achievements:
+      - Participated in requirements analysis and system specification using Agile Scrum practices.
+      - Developed features with ASP.NET (.NET Framework 4.x), C#, MVC, and .NET Core.
+      - Built responsive UI components using HTML5, CSS, Bootstrap, JavaScript, jQuery, Angular 7.
+      - Migrated database logic leveraging LINQ, Entity Framework (SQL Server 2012/2014).
+      - Utilized Git/TFS for version control ensuring collaborative delivery.
+  - role: Senior Software Engineer
+    company: BSSIT
+    location: Dhaka, Bangladesh
+    start: 2015-01
+    end: 2017-08
+    achievements:
+      - Delivered enterprise modules across POS, CRM, and inventory domains using ASP.NET MVC and C#.
+      - Supported existing software products while iterating on new greenfield features.
+      - Contributed to all SDLC phases: requirements, design, implementation, testing, deployment.
+  - role: Software Engineer
+    company: BOS Tech
+    location: Dhaka, Bangladesh
+    start: 2012-01
+    end: 2014-12
+    achievements:
+      - Developed core web application functionality in ASP.NET MVC, JavaScript, and C#.
+      - Participated in iterative releases improving stability and usability.
+
+projects:
+  - name: Plant Management System
+  # url: https://example.com/plant-management (add if public)
+    description: Industrial plant management platform integrating 3D visualization (Autodesk Forge) with operational data services.
+    tech: [Autodesk Forge, ASP.NET, React, MSSQL]
+  - name: Banking Microservices Platform
+  # url: https://example.com/banking (add if public)
+    description: Modular banking solution leveraging microservices for core transactions, analytics, and customer services.
+    tech: [.NET Core Web API, Vue.js, Oracle 11g, Microservices]
+  - name: Education Management System
+  # url: https://example.com/education (add if public)
+    description: Web-based portal for online education delivery and administration.
+    tech: [ASP.NET MVC, SQL Server, jQuery]
+  - name: Tea Estate Management System
+  # url: https://example.com/tea-estate (add if public)
+    description: Domain-specific management system tracking production, logistics, and labor.
+    tech: [ASP.NET MVC, MSSQL]
+
+education:
+  - degree: Bachelor
+    field: Computer Science and Engineering
+    institution: Prime University
+    location: Dhaka, Bangladesh
+    graduation: "" # add graduation year
+
+certifications:
+  - name: Programming in C# (Exam 70-483)
+    issuer: Microsoft
+    year: "" # add year earned
+  - name: Developing ASP.NET MVC Web Applications (Exam 70-486)
+    issuer: Microsoft
+    year: "" # add year earned
+  - name: Certified ScrumMaster (CSM)
+    issuer: Scrum Alliance
+    year: "" # add year earned
+
+languages:
+  - name: English
+    level: Professional
+  - name: Bengali
+    level: Native
+
+extras:
+  interests: [Clean Architecture, Performance Optimization, Open Source, Continuous Learning]
+  volunteering: []

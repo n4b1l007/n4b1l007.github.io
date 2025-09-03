@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "MD. Jafrul Sadek | Portfolio"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "MD. Jafrul Sadek"
+description              : "Portfolio, projects, resume, and professional profile of MD. Jafrul Sadek."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -77,35 +77,17 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           :
-  gitlab           :
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         :
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
-  steam            :
-  tumblr           :
-  twitter          :
-  vine             :
-  weibo            :
-  xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  name             : "MD. Jafrul Sadek"
+  avatar           : /assets/images/profile.jpg # Add this image file
+  bio              : "Microsoft Certified Professional & CSM with 8+ years building enterprise .NET (ASP.NET MVC/Core, Web API) solutions across banking, HR, education, and industrial domains. Passionate about clean architecture and scalable microservices."
+  location         : ""
+  email            : "" # add your email
+  uri              : ""
+  github           : "n4b1l007"
+  linkedin         : "" # username or full URL
+  stackoverflow    : # "123456/username"
+  twitter          : "" # without @
+  youtube          :
 
 
 # Reading Files
@@ -179,7 +161,8 @@ timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
-gems:
+# Plugins
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -187,6 +170,7 @@ gems:
   - jemoji
 
 # mimic GitHub Pages with --safe
+# mimic GitHub Pages with --safe (no longer needed for local dev, keep for reference)
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
@@ -245,3 +229,25 @@ defaults:
       comments: # true
       share: true
       related: true
+  # projects collection
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: false
+      share: true
+
+# Collections for portfolio
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+  certifications:
+    output: true
+    permalink: /certifications/:name/
+
+# Custom portfolio settings (optional future use)
+portfolio:
+  show_download_resume: true
+  resume_pdf_path: /assets/resume/MD-Jafrul-Sadek-Resume.pdf

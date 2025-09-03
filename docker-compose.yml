@@ -1,0 +1,11 @@
+# Compose file (version key deprecated in v2+ plugin syntax)
+services:
+  site:
+    build: .
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/site
+    command: bundle exec jekyll serve --host 0.0.0.0 --livereload --drafts
+    environment:
+      JEKYLL_ENV: development

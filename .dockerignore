@@ -1,0 +1,8 @@
+.git
+docs
+test
+node_modules
+tmp
+vendor
+_site
+*.log
